@@ -1,12 +1,13 @@
 import Seo from '../../components/Seo';
 import DefaultLayout from '../../layouts/Default';
+import HomeAuthForm from './authform';
 
 const HomePage = () => {
   return (
     <DefaultLayout>
-      <Seo title="Home" />
+      <Seo title="Admin | Pharmer Web" />
 
-      <div>start coding!</div>
+      <HomeAuthForm />
     </DefaultLayout>
   );
 };
